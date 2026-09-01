@@ -1,0 +1,46 @@
+#main-header{
+    background-color: green;
+    font-size: 25px;
+    padding:20px;
+    color:white;
+    
+}
+
+.form-control{
+    padding:15px;
+    width:250px;
+    align-self: center;
+
+}
+
+.container{
+    border: px solid white;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#item{
+    padding:10px;
+}
+.submit{
+    padding:10px;
+   color:white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.list-group-item{
+    padding:15px;
+    margin-bottom: 5px;
+    margin-right:250px ;
+    background-color: #33333313;
+    border:1px solid #3333334f
+}
+#button{
+    width:500px;
+    padding:10px;
+    background-color: #333;
+    color:white;
+    
+}
