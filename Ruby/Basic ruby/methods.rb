@@ -61,7 +61,7 @@ end
 def return_squared(number)
   number * number
 end
-# check 
+# check these stuffs
 puts_squared(20)
 
 return_squared(20)

@@ -4,7 +4,7 @@
 # debugging with puts and p
 def isogram?(string)
   original_length = string.length
-  string_array = string.downcase.split
+  string_array = string.downcase.split(',')
   unique_length = string_array.uniq.length
 
   p string_array
@@ -13,7 +13,7 @@ def isogram?(string)
   original_length == unique_length
 end
 
-#Debugging with Pry-byebg
+#Debugging with Pry-byebug
 require 'pry-byebug'
 
 def yell_greeting(string)

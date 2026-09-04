@@ -7,6 +7,13 @@ test_scores = [
 ]
 
 #Accessing Elements
+
+teacher_mailboxes = [
+  ["Adams", "Baker", "Clark", "Davis"],
+  ["Jones", "Lewis", "Lopez", "Moore"],
+  ["Perez", "Scott", "Smith", "Young"]
+]
+
 teacher_mailboxes[0][0]  # => "Adams"
 teacher_mailboxes[-1][-2] # => "Smith"
 
